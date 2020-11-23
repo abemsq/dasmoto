@@ -1,0 +1,81 @@
+# Static Website: Wine Festival Schedule
+
+Simple static mini e-commerce website showcasing art supply products.
+
+![image](https://github.com/abemsq/wine-festival/blob/master/picture.png)
+
+## HTML
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dasmoto's Arts &amp; Crafts</title>
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1 id="site-title">Dasmoto's Arts &amp; Crafts</h1>
+    </header>
+    <main>
+      <div>
+        <h2 class="section" id="brushes">Brushes</h2>
+        <img src="./resources/img/hacksaw.jpeg" alt="">
+        <h3>Hacksaw Brushes</h3>
+        <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price-type">Starting at $3.00 / brush.</span></p>
+      </div>
+      <div>
+        <h2 class="section" id="frames">Frames</h3>
+        <img src="./resources/img/frames.jpeg" alt="">
+        <h3>Art Frames (assorted)</h3>
+        <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="price-type">Starting at $2.00 / frame.</span></p>
+      </div>
+      <div>
+        <h2 class="section" id="paint">Paint</h2>
+        <img src="./resources/img/finnish.jpeg" alt="">
+        <h3>Clean Finnish Paint</h3>
+        <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.<span class="price-type">Starting at $5.00 / tube.</span></p>
+      </div>
+    </main>
+  </body>
+</html>
+```
+
+## CSS
+
+```
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+#site-title {
+  background-image: url(../img/pattern.jpeg);
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: khaki;
+}
+
+.section {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+.price-type {
+  font-weight: bold;
+  color: blue;
+}
+```
