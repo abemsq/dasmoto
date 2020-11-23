@@ -2,7 +2,7 @@
 
 Simple static mini e-commerce website showcasing art supply products.
 
-![image](https://github.com/abemsq/dasmoto/blob/master/picture.png)
+![image](https://github.com/abemsq/dasmoto/blob/master/image.png)
 
 ## HTML
 ```
